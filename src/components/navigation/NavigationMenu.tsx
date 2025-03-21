@@ -22,7 +22,7 @@ const NavigationMenu = () => {
   }));
 
   return (
-    <nav className="flex items-center gap-8 bg-[#0F0F0F] p-2.5 rounded-xl border-4 border-[#1F1F1F]">
+    <nav className="flex items-center gap-8 bg-[#0F0F0F] p-2.5 rounded-xl border-4 border-[#1F1F1F] absolute left-1/2 -translate-x-1/2">
       {navigationItems.map(({ title, onClick, isActive }, index) => (
         <button
           key={index}
